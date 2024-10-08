@@ -1,0 +1,339 @@
+body{ padding:0px;
+      margin:0px;
+	  
+	  }
+	  #main { width:100%;
+	            height:auto;
+			      background-color:;
+	  }
+	  .header { width:100%;
+	             height:20px;
+			       
+
+				     overflow:hidden;
+	  }
+	  .box{ width:40%;
+	     height:30px;
+		 float:left;
+		 background:;
+		 padding-top:0px;
+		 padding-left:20px;
+	  }
+	  .box1{ width:5%;
+	     height:30px;
+		 float:left;
+		 background:;
+	padding-top:px;
+		
+		text-align:right;
+	  }
+	  .box2{ width:35%;
+	     height:30px;
+		 float:left;
+		 background:;
+	padding-top:px;
+		overflow:hidden;
+		padding-left:2px;
+	  }
+	  
+	  .box3{ width:18%;
+	     height:30px;
+		 float:left;
+		 background:;
+		 text-align:center;
+		 padding-top:0px;
+	  }
+	  
+	
+	  .header1 { width:100%;
+	             height:50px;
+			       background:;
+				  display:flex;
+				   background-image: linear-gradient(92.04deg,#18184a 24.18%,#19398a 50.95%,#18184a 110.32%);
+    box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+				     }
+					 
+			.box4{ width:15%;
+                  height:50px;
+        background:;
+       float:left;
+       text-align:center;
+	   
+			}	
+			.box5{ width:65%;
+                  height:50px;
+        background:;
+        float:left;
+       
+			}
+			
+			.box6{ width:20%;
+                  height:50px;
+        background:;
+        float:left;
+		color:white;
+		padding-top:0px;
+		
+			}
+			.box66{ width:20%;
+			background:;
+			float:left;
+			height:40px;
+			padding-top:10px;
+			}
+			
+			.box661{ width:30%;
+			background:;
+			float:left;
+			height:40px;
+			padding-top:10px;
+			}
+			
+			.box662{ width:40%;
+			background:;
+			float:left;
+			height:40px;
+			padding-top:10px;
+			}
+			
+			
+			nav{ background-color:;
+	  }
+	  nav ul{ padding:0px;
+	            margin:0px;
+	  }
+	  nav ul li{ display:inline-block;
+	                         background-color:;
+					}
+			 
+	  nav a{ display:block;
+	        padding:0 20px;
+			color:#fff;
+			text-decoration:none; 
+			line-height:50px;
+		
+	  }
+	  nav ul ul { display:none;
+	       position:absolute;
+		   
+		   }
+	  nav ul ul li{ width:200px;
+	         display:list-item;
+			 list-style-type:none;
+			 border: 1px solid #ddd;
+	 background:#999999;
+			 }
+			 
+				nav a:hover{ background:#fff;
+				color:black;
+				}				
+	  
+	nav ul li:hover > ul{ display:inherit;
+	}
+	  li > a:after{ content:'+';}
+		li > a:only-child::after{ content:'';
+		}
+		.h1{ width:100%;
+		height:100px;
+		background:;
+		overflow:hidden;
+	
+		}
+		.h11{ width:30%;
+		height:40px;
+		background:blue;
+		margin-top:30px;
+		float:right;
+		margin-right:20px;
+	text-align:right;
+	padding-right:20px;
+	padding-top:20px;
+	overflow:hidden;
+	font-size:20px;
+		}
+		.h111{ width:50%;
+		height:25px;
+		background:orange;
+		float:left;
+		margin:5px;
+		text-align:left;
+	
+		}
+		.slid{ width:100%;
+		height:1200px;
+		background-image:url( "images/sheduleBg (1).jpg");
+		overflow:hidden;
+		}
+		.s1{ width:20%;
+		height:1200px;
+	background:;
+	float:left;
+	margin-left:20px;
+		}
+		
+		.s11{ width:90%;
+		height:50px;
+		display:block;
+		background:;
+		margin:10px;
+		border:2px solid #ddd;
+		}
+		.s12{ width:90%;
+		height:50px;
+		display:block;
+		background:;
+		margin:10px;
+border:2px solid #ddd;
+		}
+		
+		
+		.s13{ width:90%;
+		height:50px;
+		display:block;
+		background:;
+		margin:10px;
+		border:2px solid #ddd;
+		}
+		
+		
+	h1{ font-family:SansSerif BoldOblique;
+	padding-left:10px;
+	color:orange;
+	}	
+		
+	h4{ text-align:;
+padding-left:20px;
+
+	}	
+
+	
+		
+		.s2{ width:70%;
+		height:1200px;
+		float:left;
+		margin-left:0px;
+		}
+		   
+		   .rr{ width:20%;
+		   height:30px;
+		   background:orange;
+		   margin-top:35px;
+		   margin-left:470px;
+		   padding-top:15px;
+		  
+		   text-align:center;
+		   }
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   #raj{ font-family:arial;
+		   border-collapse:collapse;
+		   width:109.567%;
+		   
+		   }
+		   #raj th{ text-align:center;
+		           text-align:center;
+				   background-color:#04AA6D;
+				   color:white;
+		   }
+		   #raj td, #raj th{ 
+		   border:2px solid #ddd;
+		   padding:15px;
+		  
+		   }
+		   #raj tr:nth-child(even)
+		   { background-color:#f2f2f2;}
+		   #raj tr:hover{ background-color#ddd;
+		   }
+		   
+		   .footer { width:100%;
+	            height:400px;
+	                 background:pink;
+	}
+	.f1{ width:100%;
+	         height:200px;
+	               background:white;
+	                    text-align:center;
+						padding-top:10px;
+	}
+	.f2{   width:100%;
+	           height:200px;
+	                   background:white;
+	                              display:flex;
+	                                       overflow:hidden;
+	}
+	.ff1{ width:25%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 padding-top:40px;
+	 text-align:center;
+	 border-right:2px solid #ddd;
+	}
+	.ff2{ width:25%;
+	 height:200px;
+	 float:left;
+	 background:;
+	  padding-top:40px;
+	 text-align:center;
+	  border-right:2px solid #ddd;
+	}
+	.ff3{ width:30%;
+	 height:200px;
+	 float:left;
+	 background:white;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	 
+	}
+	.ff4{ width:10%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	}
+	.ff5{ width:10%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	}
+	.ff6{ width:10%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	}
+	.footer1{ width:100%;
+	height:500px;
+	background: #19398a;
+	margin-top:20px;
+	display:flex;
+	overflow:hidden;
+	color:white;
+	}
+	.bx{width:25%;
+	  height:500px;
+	  border:0px solid #ddd;
+	  float:left;
+	  padding-left:40px;
+	  padding-top:20px;
+	}
+	
+	

@@ -1,0 +1,661 @@
+.body{ padding:0px;
+      margin:0px;
+	  
+	  }
+	  #main { width:100%;
+	            height:auto;
+			      background-color:;
+	  }
+	  .header { width:100%;
+	             height:20px;
+			          
+
+				     overflow:hidden;
+	  }
+	  .box{ width:40%;
+	     height:30px;
+		 float:left;
+		 background:;
+		 padding-top:0px;
+		 padding-left:20px;
+	  }
+	  .box1{ width:5%;
+	     height:30px;
+		 float:left;
+		 background:;
+	padding-top:0px;
+		
+		text-align:right;
+	  }
+	  .box2{ width:35%;
+	     height:30px;
+		 float:left;
+		 background:;
+	padding-top:px;
+		overflow:hidden;
+		padding-left:2px;
+	  }
+	  
+	  .box3{ width:18%;
+	     height:30px;
+		 float:left;
+		 background:;
+		 text-align:center;
+		 padding-top:0px;
+	  }
+	  
+	
+	  .header1 { width:100%;
+	             height:50px;
+			       background:;
+				  display:flex;
+				   background-image: linear-gradient(92.04deg,#18184a 24.18%,#19398a 50.95%,#18184a 110.32%);
+    box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+				     }
+					 
+			.box4{ width:15%;
+                  height:50px;
+                  background:;
+                 float:left;
+                 text-align:center;
+	   
+			}	
+			.box5{ width:65%;
+                  height:50px;
+        background:;
+        float:left;
+       
+			}
+			
+			.box6{ width:20%;
+                  height:50px;
+        background:;
+        float:left;
+		color:white;
+		padding-top:0px;
+		
+			}
+			.box66{ width:20%;
+			background:;
+			float:left;
+			height:40px;
+			padding-top:10px;
+			}
+			
+			.box661{ width:30%;
+			background:;
+			float:left;
+			height:40px;
+			padding-top:10px;
+			}
+			
+			.box662{ width:40%;
+			background:;
+			float:left;
+			height:40px;
+			padding-top:10px;
+			}
+			
+			
+			
+			
+			
+		.header2{ width:100%;
+                  height:30px;
+                  background:orange;
+		}			
+		.header3{ width:60%;
+                  height:30px;
+                  background:orange;
+				  margin:auto;
+				  padding-top:0px;
+				 
+		}			
+		
+			
+					 nav{ background-color:;
+	  }
+	  nav ul{ padding:0px;
+	            margin:0px;
+	  }
+	  nav ul li{ display:inline-block;
+	                         background-color:;
+					}
+			 
+	  nav a{ display:block;
+	        padding:0 20px;
+			color:;
+			text-decoration:none; 
+			line-height:50px;
+		font-family:Arial Unicode MS;
+		font-size:14px;
+		
+	  }
+	  nav ul ul { display:none;
+	       position:absolute;
+		  
+		   }
+	  nav ul ul li{ width:200px;
+	         display:list-item;
+			 list-style-type:none;
+			 border: 1px solid #ddd;
+		background:white;
+			color:;
+			 }
+			 
+				nav ul ul li a:hover{ background:#e9ecef;
+				color:#213e5b;
+			border:1px solid #ddd;
+			}				
+	  
+	nav ul li:hover > ul{ display:inherit;
+	}
+	  li > a:after{ content:'+';
+	  color:white;}
+		li > a:only-child::after{ content:'';
+		}
+		
+		.slider{ width:100%;
+			height:600px;
+			background-image:url(https://scores.iplt20.com/ipl/images/hero-bg-new.jpg);
+			overflow:hidden;
+			}
+			
+			.box7{width:70%;
+			height:500px;
+		     background:;
+			 float:left;
+			 background-image:url("images/image (1).jpg");
+			 background-size:100%;
+			 background-repeat:no-repeat;
+			 color:#fff;
+		margin-top:10px;
+			}
+			
+			
+			.box8{ width:28%;
+			height:600px;
+		     background-image:url(https://scores.iplt20.com/ipl/images/hero-bg-new.jpg);
+			 float:right;
+			 margin-right:10px;
+		     overflow:hidden;
+		     margin-top:10px;
+		
+			}
+			
+			
+			.br1{width:80%;
+			height:20px;
+			background:orange;
+            text-align:center;
+			 padding-bottom:10px;
+		color:white;
+			}
+			
+			.b{ width:97.5%;
+			height:30px;
+			background:white;
+			display:block;
+			overflow:hidden;
+			margin:5px;
+			color:black;
+			}
+			
+			.b1{ width:25%;
+			height:30px;
+			background:;
+			float:left;
+		padding-top:5px;
+	padding-left:5px;
+	
+			}
+			
+			.b2{ width:22%;
+			height:30px;
+			background:;
+			float:left;
+		`padding-left:10px;
+	      text-align:center;
+	padding-top:5px;
+			}
+			.b3{ width:28%;
+			height:30px;
+			background:;
+			float:left;
+	text-align:center;
+		padding-top:5px;
+			}
+			.b4{ width:23%;
+			height:30px;
+			background:;
+			float:left;
+		padding-top:5px;
+			text-align:center;
+			}
+			
+			
+			
+			.bs{ width:99%;
+			height:35px;
+			background:;
+			display:block;
+			overflow:hidden;
+			margin:5px;
+			
+			}
+			
+			.bs1{ width:24%;
+			height:35px;
+			border:1px solid #ddd;
+			float:left;
+			text-align:center;
+			margin:5px 0px;
+			background-color:#ddd;
+		    padding-top:5px;
+			
+
+			}
+			
+			.bbb{ width:96.5%;
+			height:30px;
+			background:blue;
+			margin-top:30px;
+			margin-left:8px;
+		color:white;
+			padding-top:15px;
+			text-align:center;
+			}
+			.content{ width:100%;
+		 height:1200px;
+		    background-image:url("images/sheduleBg (1).jpg");
+			 padding:0px;
+		}
+		
+	.row1{width:100%;
+	     height:400px;
+	     background:;
+	     overflow:hidden;
+		 display:block;
+	}
+  .rc { width:100%;
+  height:80px;
+  background:;
+  font-size:25px;
+  display:block;
+  padding-left:15px;
+  overflow:hidden;
+  color:orange;
+  font-family:
+  
+  }
+	
+	.rb1{width:23.5%;
+	height:300px;
+	border:5px solid #ddd;
+	float:left;
+	margin-left:8px;
+
+	
+	}
+	.rb2{ width:100%;
+	      height:100px;
+		  background:;
+		  display:block;
+		  color:;
+		 overflow:hidden;
+		
+float:left;
+  
+	}
+	.rb2:hover{ background:linear-gradient(blue,skyblue);
+	color:white;
+	}
+	.rb1:hover{ 
+	height:200.5px;
+	}
+	
+	.row2{width:100%;
+	   height:400px;
+	   background:;
+	   overflow:hidden;
+	}
+	.row3{width:100%;
+	   height:400px;
+	   background:;
+	   overflow:hidden;
+	}
+	.content1{ width:100%;
+	        height:300px;
+			background-image:url("images/blue.jpg");
+
+			overflow:hidden;
+	}
+	.colum1{ width:65%;
+	  height:300px;
+	  float:left;
+	  display:block;
+	  overflow:hidden;
+	}
+	.colum2{ width:35%;
+	  height:300px;
+	
+
+	  float:left;
+	  text-align:center;
+	}
+	.cn1{ width:100%;
+	         height:170px;
+	
+			 padding-left:60px;
+			 padding-top:40px;
+	overflow:hidden;
+			 display:block;
+			 font-size:20px;
+			 color:white;
+	}
+	.cn2{ width:100%;
+	         height:100px;
+			 background-color:;
+			 text-align:right;
+			 display:block;
+			 padding-top:0px;
+	}
+	.content3{ width:100%;
+	 height:auto;
+	 background-image:url("images/sheduleBg (1).jpg");
+	 overflow:hidden;
+	 
+	}
+	.rw1{ width:100%;
+	  height:60px;
+	  background:;
+	  font-size:35px;
+	  padding-top:20px;
+	  overflow:hidden;
+	  padding-left:20px;
+	}
+	.rw2{ width:100%;
+	  height:400px;
+	  background:;
+	  margin-left:5px;
+	  display:block;
+	  
+	}
+	.rw3{ width:100%;
+	  height:250px;
+	  background-image:;
+	  margin-top:80px;
+	}
+	.br { width:15.65%;
+	 height:450px;
+	  background:;
+	  float:left;
+	  display:block;
+	  border:2px solid #ddd;
+	  overflow:hidden;
+	  margin:5px;
+	}
+	.br1 { width:100%;
+	 height:35px;
+	 background-image: linear-gradient(to top right,#9b35f8,#692f9e);
+	 display:block;
+	 padding-top:6px;
+	 text-align:right;
+	 overflow:hidden;
+	}
+	.br2 { width:100%;
+	 height:200px;
+	 background-image: linear-gradient(to top right,#9b35f8,#692f9e);
+	 display:block;
+	 text-align:center;
+	}
+	.br3 { width:100%;
+	 height:30px;
+	 background:#ff481e;
+	 display:block;
+	 text-align:center;
+	 padding-top:6px;
+	}
+	.br4 { width:100%;
+	 height:80px;
+	 background:;
+	 display:block;
+	font-size:20px;
+	 text-align:center;
+	 padding-top:8px;
+	}
+	.br5{ width:100%;
+	 height:20px;
+	 background:;
+	 display:block;
+	  text-align:center;
+	  padding-top:30px;
+	}
+	.br:hover{ background:black;
+	color:white;
+}
+.content4{ width:100%;
+	  height:880px;
+	   background-image:url(https://scores.iplt20.com/ipl/images/hero-bg-new.jpg);
+	  margin-top:20px;
+	  display:block;
+	  overflow:hidden;
+	}
+	.cnr{ width:100%;
+	height:20px;
+	padding:40px;
+	color:white;
+font-size:40px;
+
+	}
+	.cns{ width:100%;
+	height:190px;
+	background:;
+	padding:10px;
+	display:flex;
+	text-align:right;
+	}
+	
+	.cnn1{ width:50%;
+	 height:208px;
+	 float:left;
+	 display:flex;
+	 background:;
+	 margin-left:10px;
+	}
+	
+	.cnn2{ width:20%;
+	 height:200px;
+	 float:left;
+	margin-left:20px;
+	 background-image:url("images/net_runrate_bg.jpg");
+	 text-align:center;
+	color:white;
+	}
+	
+	.cnn3{ width:30%;
+	 height:200px;
+	 float:left;
+	 display:flex;
+	 background-image:url("images/CSKWon-bg.jpg");
+	 margin-left:20px;
+	 margin-right:30px;
+	 color:white;
+	}
+	
+	
+	
+	
+	
+	
+	
+	.cn3{ width:99%;
+	height:275px;
+	background:;
+	padding:25px;
+	overflow:hidden;
+
+	}
+	.cnnn3{ width:23.5%;
+	height:250px;
+	
+	float:left;
+	margin-right:20px;
+	padding-top:20px;
+	overflow:hidden;
+	display:flex;
+	margin-bottom:20px;
+	text-align:center;
+	background-image:url("images/Raina-bg.png");
+	color:white;
+	}
+	
+	
+	
+	.cn4{ width:100%;
+	height:300px;
+	background:;
+	padding:0px;
+	
+	}
+	.n1{ width:17%;
+	height:170px;
+	float:left;
+background-image:url("images/CSKWon-bg.jpg");
+	text-align:center;
+	padding-top:30px;
+	margin-left:25px;
+	
+	}
+	.n2{ width:60%;
+	height:200px;
+	float:left;
+	background:#292063;
+	margin-left:10px;
+	overflow:hidden;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	}
+	
+	.n3{ width:18%;
+	height:170px;
+	float:left;
+	background-image:url("images/Raina-bg.png");
+	margin-left:10px;
+	padding-right:10px;
+padding-top:30px;
+text-align:center;
+	}
+	
+	
+	
+	h4{ text-align:center;
+	padding-left:170px;
+	padding-top:50px;
+	}
+	h6{ padding-top:40px;
+	font-size:20px;
+	}
+	
+	
+	p{ 
+	color:white;
+	padding-left:150px;
+	padding-top:80px;
+	font-size:20px;
+	}
+	.footer { width:100%;
+	            height:400px;
+	                 background:#ECF0F1;
+					 padding-top:10px;
+	}
+	.f1{ width:100%;
+	         height:200px;
+	               background:;
+	                    text-align:center;
+	}
+	.f2{   width:100%;
+	           height:200px;
+	                   background:;
+	                              display:flex;
+	                                       overflow:hidden;
+	}
+	.ff1{ width:25%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 padding-top:40px;
+	 text-align:center;
+	 border-right:2px solid #ddd;
+	}
+	.ff2{ width:25%;
+	 height:200px;
+	 float:left;
+	 background:;
+	  padding-top:40px;
+	 text-align:center;
+	  border-right:2px solid #ddd;
+	}
+	.ff3{ width:30%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	 
+	}
+	.ff4{ width:10%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	}
+	.ff5{ width:10%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	}
+	.ff6{ width:10%;
+	 height:200px;
+	 float:left;
+	 background:;
+	 text-align:center;
+	 padding:40px;
+	  border-right:2px solid #ddd;
+	}
+	.footer1{ width:100%;
+	height:500px;
+background: #19398a;
+	margin-top:0px;
+	display:flex;
+	overflow:hidden;
+	color:white;
+	}
+	.bx{width:25%;
+	  height:500px;
+	  border:0px solid #ddd;
+	  float:left;
+	  padding-left:40px;
+	  padding-top:20px;
+	}
+	
+.button1
+{  border-radius:360px;
+   border:none;
+   margin-top:10px;
+   height:40px;
+   font-size:20px;
+}	
+
+b{ color:white;
+}
+ 
+  span{ border-bottom:1px;
+  }

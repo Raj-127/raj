@@ -1,0 +1,116 @@
+.body{ padding:0px;
+      margin:0px;
+	  
+	  }
+	  #main { width:100%;
+	            height:auto;
+			      background-color:;
+	  }
+	  .header { width:100%;
+	             height:20px;
+			       
+
+				     overflow:hidden;
+	  }
+	  .box{ width:40%;
+	     height:30px;
+		 float:left;
+		 background:;
+		 padding-top:0px;
+		 padding-left:20px;
+	  }
+	  .box1{ width:5%;
+	     height:30px;
+		 float:left;
+		 background:;
+	padding-top:px;
+		
+		text-align:right;
+	  }
+	  .box2{ width:35%;
+	     height:30px;
+		 float:left;
+		 background:;
+	padding-top:px;
+		overflow:hidden;
+		padding-left:2px;
+	  }
+	  
+	  .box3{ width:18%;
+	     height:30px;
+		 float:left;
+		 background:;
+		 text-align:center;
+		 padding-top:0px;
+	  }
+	  
+	
+	  .header1 { width:100%;
+	             height:50px;
+			       background:;
+				  display:flex;
+				   background-image: linear-gradient(92.04deg,#18184a 24.18%,#19398a 50.95%,#18184a 110.32%);
+    box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+				     }
+					 
+			.box4{ width:15%;
+                  height:50px;
+        background:;
+       float:left;
+       text-align:center;
+	   
+			}	
+			.box5{ width:65%;
+                  height:50px;
+        background:;
+        float:left;
+       
+			}
+			
+			.box6{ width:20%;
+                  height:50px;
+        background:;
+        float:left;
+		color:white;
+		padding-top:10px;
+			}
+				
+			
+					 nav{ background-color:;
+	  }
+	  nav ul{ padding:0px;
+	            margin:0px;
+	  }
+	  nav ul li{ display:inline-block;
+	                         background-color:;
+					}
+			 
+	  nav a{ display:block;
+	        padding:0 20px;
+			color:#fff;
+			text-decoration:none; 
+			line-height:50px;
+		
+	  }
+	  nav ul ul { display:none;
+	       position:absolute;
+		   
+		   }
+	  nav ul ul li{ width:200px;
+	         display:list-item;
+			 list-style-type:none;
+			 border: 1px solid #ddd;
+			 background:;
+			 }
+			 
+				nav a:hover{ background:#fff;
+				color:black;
+				}				
+	  
+	nav ul li:hover > ul{ display:inherit;
+	}
+	  li > a:after{ content:'+';}
+		li > a:only-child::after{ content:'';
+		}
+					 
+			
